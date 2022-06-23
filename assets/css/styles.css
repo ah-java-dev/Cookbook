@@ -2,3 +2,27 @@ input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-s
   display: none;
 }
 
+@media (max-width: 1920px) {
+  .container {
+    width: 1296px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .container {
+    width: 972px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container {
+    width: 648px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 324px;
+  }
+}
+
