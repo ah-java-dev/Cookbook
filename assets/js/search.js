@@ -27,7 +27,7 @@ function sendRequest(title) {
 	let data = new FormData();
 	data.append('title', title);
 
-	xHttp.open("POST", "https://www.siliconos.ga:8081/assets/php/getRecipes.php");
+	xHttp.open("POST", "https://www.ah-dev.studio:8081/getRecipes.php");
 	xHttp.send(data);
 }
 
